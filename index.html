@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes"/>
+	<meta charset="UTF-8">
+	<title>HTML5 Space Tower Defense</title>
+
+    <meta content="Bernabé C.Alonso" name="author" />
+    <meta content="Juego desarrollado en Html5 y Createjs. Space Tower Defense" name="description" />
+    <meta content="Html5, Createjs, juego" name="keywords" />
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script src="src/jquery-1.11.0.min.js"></script>
+    <script src="vendor/collision/src/ndgmr.Collision.js"></script>
+    <!-- <script src="vendor/easeljs/lib/easeljs-0.7.1.min.js"></script>-->
+    <script src="src/createjs-2013.12.12.min.js"></script>
+    <script src="src/utils/delegate.js"></script>
+    <script src="src/utils/keyboardManager.js"></script>
+    <script src="src/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            loadGame();
+        });
+    </script>
+    
+</head>
+<body>
+	
+	<div id="gameArea">
+	  <canvas id="gameCanvas"></canvas>
+    </div>
+
+</body>
+</html>
